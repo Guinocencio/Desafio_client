@@ -1,11 +1,11 @@
-#Flask Desafio
+# Flask Desafio
 
 Criar uma Estrutura para clientes e grupo de clientes.
 
-####DataBase
+#### DataBase
 Foi utilizado o postgresSql 9.6
 
-###Migrations
+### Migrations
 Comando para rodar as migrations:
 
 ```sh
@@ -15,13 +15,13 @@ flask db upgrade
 flask run
 ```
 
-##Json
+## Json
 ``
 {
   "name": "Group Name"
 }
 ``
-####Client
+#### Client
 ``
 {
   "name": "Client Name",
