@@ -1,5 +1,6 @@
 from flask import Blueprint, Response, request
-from Include.Entity.models import db, GrupoClient
+from Include.models import db
+from Include.Entity.GroupClient import GrupoClient
 import json
 
 app = Blueprint('grupoClient', __name__)

@@ -1,7 +1,7 @@
 from Include.Controllers.client import app as client_controller
 from Include.Controllers.grupoClient import app as grupoClient_controller
-from Include.Entity.models import configure as config_db
-from Include.Entity.models import db
+from Include.models import configure as config_db
+from Include.models import db
 from flask import Flask
 from flask_migrate import Migrate
 

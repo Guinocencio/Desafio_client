@@ -1,5 +1,6 @@
 from flask import Blueprint, Response, request
-from Include.Entity.models import db, Client
+from Include.models import db
+from Include.Entity.Client import Client
 import json
 
 app = Blueprint('client', __name__)
